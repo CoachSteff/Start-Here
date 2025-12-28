@@ -2,7 +2,7 @@
 
 **Building human-centered tools for the AI era**
 
-This is the home base for my open-source projects focused on helping professionals work smarter with AI. I'm Steff VanHaverbeke (CoachSteff), an AI adoption coach and facilitator. I run CS Workx and am a partner at [The House of Coaching](https://thehouseofcoaching.be/). My work centers on the human side of AI: cognitive agility, strategic thinking, and the capabilities that make us irreplaceable.
+This is the home base for my open-source projects focused on helping professionals work smarter with AI. I'm Steff VanHaverbeke (she/her), a.k.a. CoachSteff, AI adoption coach and facilitator. I run CS Workx and am a partner at [The House of Coaching](https://thehouseofcoaching.be/) and The House of AI. My work centers on the human side of AI: cognitive agility, strategic thinking, and the capabilities that make us irreplaceable.
 
 The projects here reflect that philosophy. They're practical tools and frameworks designed to augment human intelligence, not replace it.
 
@@ -14,6 +14,13 @@ The projects here reflect that philosophy. They're practical tools and framework
 A comprehensive framework for AI prompt engineering and context management. This project helps you structure prompts that actually work, maintain context across conversations, and get consistently better results from AI tools.
 
 **When to use it:** You're working with AI assistants regularly and want to move beyond basic prompting into systematic, repeatable workflows.
+
+---
+
+### [superskills](https://github.com/CoachSteff/superskills)
+A comprehensive tool framework for AI agents, based on Anthropics' Claude Skills.
+
+**When to use it:** You're working with AI agents and agentic workflows and want to give it a comprehensive set of business tools.
 
 ---
 
