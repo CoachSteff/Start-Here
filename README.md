@@ -1,65 +1,112 @@
 # Welcome to CoachSteff's AI Workspace
 
-**Building human-centered tools for the AI era**
+**Human-centred tools for working with AI**
 
-This is the home base for my open-source projects focused on helping professionals work smarter with AI. I'm Steff VanHaverbeke (she/her), a.k.a. CoachSteff, AI adoption coach and facilitator. I run CS Workx and am a partner at [The House of Coaching](https://thehouseofcoaching.be/) and The House of AI. My work centers on the human side of AI: cognitive agility, strategic thinking, and the capabilities that make us irreplaceable.
+I'm Steff VanHaverbeke (she/her), a.k.a. CoachSteff: AI adoption coach, trainer and facilitator. I run CS Workx and I'm a partner at [The House of Coaching](https://thehouseofcoaching.com) and [The House of AI](https://thehouseof.ai). My work is about the human side of AI: cognitive agility, strategic thinking, and the skills that keep you in the driver's seat.
 
-The projects here reflect that philosophy. They're practical tools and frameworks designed to augment human intelligence, not replace it.
-
----
-
-## What You'll Find Here
-
-### [superprompt](https://github.com/CoachSteff/superprompt)
-A comprehensive framework for AI prompt engineering and context management. This project helps you structure prompts that actually work, maintain context across conversations, and get consistently better results from AI tools.
-
-**When to use it:** You're working with AI assistants regularly and want to move beyond basic prompting into systematic, repeatable workflows.
+This GitHub account is where I share the tools, skills and templates I use in my courses. Everything listed below is free to use, fork and build on. Each repo has its own licence.
 
 ---
 
-### [superskills](https://github.com/CoachSteff/superskills)
-A comprehensive tool framework for AI agents, based on Anthropics' Claude Skills.
+## Start with the learning space
 
-**When to use it:** You're working with AI agents and agentic workflows and want to give it a comprehensive set of business tools.
+The repos on this page are the hands-on half of my courses. The explanations, exercises and courses themselves live on [coachsteff.live](https://coachsteff.live).
+
+[Create a free account](https://coachsteff.live/account) and you get your own learning space, *Mijn leerruimte*, with:
+
+- **Articles**: short, practical pieces on working with AI, agents, prompts, privacy and the AI Act, plus a toolkit of worksheets, checklists and templates.
+- **Courses**: self-paced programmes such as AI Poweruser, Gemini & NotebookLM Poweruser, Imagineering and Toekomstdenken.
+- **Workshops and events**: the [agenda](https://coachsteff.live/agenda) with my open trainings at Syntra, Cevora and The House of Coaching.
+
+Three levels: **Learn** is free and covers reading and the first module of each course. **[Leverage](https://coachsteff.live/leverage)** opens the full toolbox (slides, downloads, videos) at your own pace. **[Leap](https://coachsteff.live/leap)** adds coaching and support from me.
+
+Most of the content is in Dutch, with English and French translations.
 
 ---
+
+## Skills for your AI agent
+
+Skills are small instruction files (`SKILL.md`) that teach your agent a way of working. They run in Claude Code, Craft Agents, Codex and any other tool that reads SKILL.md files.
+
+### [handover-skills](https://github.com/CoachSteff/handover-skills)
+Two skills, `/handover` and `/resume`, that keep long sessions with your agent from going off the rails. At the end of a phase, the agent writes the real state of your project into files. In a fresh session, it reads them back, checks them against your actual files and git, and only then carries on.
+
+**When to use it:** your chats get long, your agent starts forgetting or contradicting itself, or you want to continue tomorrow (or on another computer) exactly where you stopped. It goes with the article [Hand-off in plaats van compacteren](https://coachsteff.live/hand-off-in-plaats-van-compacteren).
+
+### [superpowers-skill](https://github.com/CoachSteff/superpowers-skill)
+The five-step protocol from my book *Finally Superpowers*, as one skill. Before you start, your agent asks for your intent, your thinking mode, your scope, what stays human, and what "done" looks like.
+
+**When to use it:** you want to stay in the driver's seat instead of drifting along with the agent.
+
+### [n8n-mcp-skills](https://github.com/CoachSteff/n8n-mcp-skills)
+Skills to build, debug and manage [n8n](https://n8n.io) workflows by talking to your assistant, through the n8n API and the n8n-mcp server. Works with Claude Desktop, Claude Code, ChatGPT Desktop and Codex.
+
+**When to use it:** you follow my n8n automation course, or you build n8n workflows and want your AI to do the clicking.
+
+### [craft-agent-n8n](https://github.com/CoachSteff/craft-agent-n8n)
+The same n8n work as a complete, ready-made Craft Agents workspace: sources, skills and instructions in one clone.
+
+**When to use it:** you use Craft Agents and want an n8n workspace that works on day one.
+
+---
+
+## Templates and workbooks
+
+### [WorkOS](https://github.com/CoachSteff/WorkOS)
+A portable, file-based work operating system for knowledge workers. You keep your context (profile, projects, style) in plain files you own, and any agent that can read files works with it. A GitHub template: click *Use this template* and make it yours.
+
+**When to use it:** you want AI that knows your situation without re-explaining it in every chat.
+
+### [vibe-coding-werkboek](https://github.com/CoachSteff/vibe-coding-werkboek)
+The participant workbook for my course *Vibe Coding met AI* (in Dutch): five checklists and nine templates that take you from an empty screen to a working, safe app built together with AI.
+
+**When to use it:** you're building your first app with AI and want a route from idea to go-live.
+
+---
+
+## Frameworks
 
 ### [imagineering](https://github.com/CoachSteff/imagineering)
-Systematic creative problem-solving frameworks built for AI-augmented work. This repo brings together structured thinking models to help you tackle complex challenges with AI as your thinking partner.
+An instruction set that turns your AI into a creative thinking partner. It asks about your challenge first, then coaches, advises or facilitates with structured creativity frameworks. It pairs with the Imagineering course in the learning space.
 
-**When to use it:** You're facing complex problems that need creative solutions, and you want frameworks to guide your AI-assisted thinking process.
+**When to use it:** you face a complex problem and want an AI that thinks with you instead of handing you the first answer.
+
+### [superprompt](https://github.com/CoachSteff/superprompt)
+My framework for structured prompts, built around CRAFTER. Still useful for older and simpler models; today's models (ChatGPT 5.x, Claude 5.x) need far less structure. The articles in the learning space show the current way of working.
 
 ---
+
+## Small tools
+
+### [agentops](https://github.com/CoachSteff/agentops)
+A lightweight macOS window that brings all your local agent tools and web interfaces (Craft Agents, Claude Code, n8n, your own apps) together in one sidebar, without the noise of a browser.
+
+**When to use it:** you run several local services and you're tired of hunting through browser tabs.
 
 ### [cs-crawler-mcp](https://github.com/CoachSteff/cs-crawler-mcp)
-A Model Context Protocol (MCP) server that adds web crawling functionality to your AI workflows. Built in Python, this tool lets you pull in real-world data and context from across the web.
+An MCP server that lets your AI tools crawl web pages and bring back clean content.
 
-**When to use it:** You need to integrate live web data into your AI tools and want a clean, systematic way to do it.
-
----
-
-## The Bigger Picture
-
-These tools are part of my work helping professionals become what I call **Superworkers**: people who strategically combine human capabilities with AI to create exponential value. Not by working harder, but by working differently.
-
-If you're interested in the human side of AI adoption, cognitive agility, or building capabilities that matter in an AI-driven world, you're in the right place.
+**When to use it:** your agent needs live web content as context.
 
 ---
 
-## Get in Touch
+## The bigger picture
 
-- **Website:** [coachsteff.live](https://coachsteff.live)
-- **The House of Coaching:** [thehouseofcoaching.be](https://thehouseofcoaching.be/)
-- **LinkedIn:** [in/steffvanhaverbeke](https://linkedin.com/in/steffvanhaverbeke)
-- **X/Twitter:** [@coachsteff](https://twitter.com/coachsteff)
-- **Medium:** [@coachsteff.live](https://medium.com/@coachsteff.live)
-
-Feel free to explore the repos, open issues, or reach out if you want to collaborate.
+These tools are part of how I help people become **Superworkers**: professionals who combine their human strengths with AI. Not by working harder, but by working differently. If that's what you're after, you're in the right place.
 
 ---
 
-**License:** Individual repos have their own licenses. Check each project for details.
+## Get in touch
+
+- **Website and learning space:** [coachsteff.live](https://coachsteff.live)
+- **Book an intro call:** [coachsteff.live/meet](https://coachsteff.live/meet)
+- **LinkedIn:** [in/steffvanhaverbeke](https://www.linkedin.com/in/steffvanhaverbeke/)
+- **YouTube:** [@coachstefflive](https://www.youtube.com/@coachstefflive)
+- **Bluesky:** [@coachsteff.bsky.social](https://bsky.app/profile/coachsteff.bsky.social)
+- **Instagram:** [@coachsteff](https://www.instagram.com/coachsteff/)
+
+Feel free to explore the repos, open an issue, or reach out if you'd like to collaborate.
 
 ---
 
-I've added The House of Coaching in the intro paragraph and included a link in the contact section. Want me to save this as a file you can upload to your repo, or would you like any other tweaks first?
+**Licence:** each repo has its own licence. Check the project for details.
